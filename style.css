@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Open+Sans:wght@500&display=swap');
+
+@media (max-width:499px) {
+    body {
+        background:rgb(235, 235, 235);
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #hole-Background {
+        width:100vw;
+        background:rgb(235, 235, 235);
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    #pick-Up-Requests-Holder {
+        top:100px;
+        width:90vw;
+        position:absolute;
+        height:fit-content;
+        top:90px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #pick-Up-Requests {
+        width:90vw;
+        height:fit-content;
+        border-bottom: 5px solid #008d3d;
+        border-right: 5px solid #008d3d;
+        margin-bottom: 20px;
+    }
+
+    #hole-Request-Container {
+        width:90vw;
+        border-top: 5px solid #008d3d;
+        position: relative;
+        /* border-radius: 6px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #request-Count {
+        border-right: 5px solid #008d3d;
+        border-left: 5px solid #008d3d;
+        font-family: 'Bakbak One', cursive;
+        width:60px;
+        height:50px;
+        font-size: 40px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #008d3d;
+    }
+
+    #request-Street {
+        font-family: 'Bakbak One', cursive;
+        color:rgb(0, 0, 0);
+        position:absolute;
+        font-size: 20px;
+        top:12px;
+        left:75px;
+    }
+
+    #request-Postcode {
+        font-family: 'Bakbak One', cursive;
+        color:rgb(100, 100, 100);
+        position:absolute;
+        font-size: 15px;
+        top:32px;
+        left:75px;
+    }
+
+    #request-Date {
+        font-family: 'Bakbak One', cursive;
+        color:rgb(100, 100, 100);
+        position:absolute;
+        font-size: 15px;
+        top:46px;
+        left:calc(100% - 75px);
+    }
+
+    #bottom-Bar {
+        width:100vw;
+        bottom: 0px;
+        height:25px;
+        background:rgb(0, 0, 0);
+    }
+
+    #top-Bar {
+        position:fixed;
+        top:0px;
+        width:100vw;
+        height:75px;
+        background:rgb(31, 31, 31);
+    }
+
+    #logo {
+        width:150px;
+        position:fixed;
+        top:-37px;
+        left:calc(50% - 45px);
+    }
+
+    #logo-Garbage-Can {
+        width:50px;
+        position:fixed;
+        top:13px;
+        left:calc(50% - 85px);
+    }
+}
